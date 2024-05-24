@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15%;
+  background-color: #fff;
+}
+.header_title_text {
+  font-family: -apple-system, system-ui, "BlinkMacSystemFont", sans-serif;
+  font-size: 50px;
+  color: #10b981;
+}
+.header_nav_ul {
+  display: flex;
+}
+.header_nav_ul_list {
+  list-style-type: none;
+  margin-right: 15px;
+}
+.header_nav_ul_link {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, Open Sans, Helvetica Neue, sans-serif;
+  letter-spacing: 3px;
+  color: #000;
+}
+.header_nav_ul_link:hover {
+  color: #10b981;
+  transition: all 0.4s;
+}/*# sourceMappingURL=Header.module.css.map */
